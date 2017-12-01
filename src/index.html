@@ -8,23 +8,22 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Raleway:700|Open+Sans:400,300,600,700|Roboto:300,900|Sanchez" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
 </head>
 <body>
+
+<app-root></app-root>
 <div id="sidr">
   
 </div>
-<app-root></app-root>
-
 
 <div class="wrapper">
         <div class="header">
             <div class="header-nav">
-                <div class="container">
+                <div class="container header-nav-container">
                     <div class="row header-nav-row">
                         <div class="col-xs-4 col-sm-2 col-md-2 header-nav-logo">
                             <a href="" class="header-nav-logo__href">Moun<span class="header-nav-logo__href_gray">tains</span></a>
@@ -50,7 +49,7 @@
             </div>
 
             <div class="header-content">
-                <div class="container">
+                <div class="container header-content-container">
                     <div class="row header-content-row">
                         <div class="col-md-12">
                             <div class="header-text">
@@ -64,12 +63,12 @@
                 </div>
             </div>
         </div>
-        <div class="blog">
-            <div class="container">
+        <section class="blog">
+            <div class="container blog-container">
                 <div class="row blog-row">
                     <div class="col-sm-5 col-md-5 blog-about">
                         <div class="blog-text">
-                            <div class="blog-text__caption">About us</div>
+                            <header class="blog-text__caption">About us</header>
                             <div class="blog-text__description">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</div>
                             <button class="btn blog-text__btn">Read more</button>
                         </div>
@@ -80,12 +79,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="journal">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="journal-caption">Our journal</div>
+        </section>
+        <main class="journal">
+            <div class="container journal-container">
+                <div class="row journal-caption-row">
+                    <div class="col-md-12 journal-caption-col">
+                        <header class="journal-caption">Our journal</header>
                     </div>
                 </div>
                 <div class="row journal-row">
@@ -132,11 +131,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
         <div class="offer">
-            <div class="container">
+            <div class="container offer-container">
                 <div class="row offer-row">
-                    <div class="col-md-9">
+                    <div class="col-sm-9 col-md-9 offer-col">
                         <div class="offer-caption">Do you wanna go?</div>
                         <div class="offer-text">Aliquam sed posuere urna, et gravida nisl. Praesent
                             <br> interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</div>
@@ -151,15 +150,15 @@
             </div>
         </div>
         <div class="scheme">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="scheme-caption">How we work</div>
+            <div class="container scheme-container">
+                <div class="row scheme-header-row">
+                    <div class="col-md-12 scheme-header-col">
+                        <header class="scheme-header">How we work</header>
                     </div>
                 </div>
                 <div class="row scheme-row">
 
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 scheme-item-col">
                         <div class="scheme-item">
 
 
@@ -171,7 +170,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 scheme-item-col">
                         <div class="scheme-item">
 
 
@@ -183,7 +182,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 scheme-item-col">
                         <div class="scheme-item">
 
 
@@ -195,7 +194,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 scheme-item-col">
                         <div class="scheme-item">
 
 
