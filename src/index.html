@@ -1,26 +1,21 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>NgMountains</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Open+Sans:400,300,600,700|Roboto:300,900|Sanchez" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+  <meta charset="utf-8">
+  <title>NgMountains</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700|Open+Sans:400,300,600,700|Roboto:300,900|Sanchez" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
 </head>
-
 <body>
-
 <app-root></app-root>
 <div id="sidr">
-
   </div>
-
 <div class="site-wrapper">
     <header class="header">
       <div class="header-nav">
@@ -28,21 +23,21 @@
           <div class="row header-nav-row">
             <div class="col-xs-4 col-sm-2 col-md-2 header-nav-logo-col">
               <div class="header-nav-logo">
-                <a href="/" class="header-nav-logo__href">Moun<span class="header-nav-logo__gray-accent">tains</span></a>
+                <a href="/" class="header-nav-logo__link">Moun<span class="header-nav-logo__gray-accent">tains</span></a>
               </div>
             </div>
             <div class="hidden-xs col-sm-10 col-md-10 header-nav-menu-col">
               <nav class="header-nav-menu" id="header-nav-menu">
                 <ul class="list-inline header-nav-menu-list">
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Our story</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href header-nav-menu-list__href_active">Services</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Work</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Journal</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Contact</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Work</a></li>
-                  <li class="header-nav-menu-list__item"><a href="/" class="header-nav-menu-list__href">Journal</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#blog" class="header-nav-menu-list__link">Our story</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#journal" class="header-nav-menu-list__link">Journal</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#offer" class="header-nav-menu-list__link">Offer</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#scheme" class="header-nav-menu-list__link">Work</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#travel" class="header-nav-menu-list__link header-nav-menu-list__link_active">Travel</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#gallery" class="header-nav-menu-list__link">Gallery</a></li>
+                  <li class="header-nav-menu-list__item"><a href="#contact" class="header-nav-menu-list__link">Contact</a></li>
                 </ul>
-                <button class="btn header-nav-menu__btn-call-us">Call us</button>
+                <a href="#contact" class="btn header-nav-menu__btn-call-us">Call us</a>
               </nav>
             </div>
             <div class="hidden-sm hidden-md hidden-lg col-xs-8 header-nav-toggle-col">
@@ -58,26 +53,26 @@
       <div class="header-content">
         <div class="container header-content-container">
           <div class="row header-content-row">
-            <div class="col-md-12 header-content-col">
+            <div class="col-xs-12 col-sm-12 col-md-12 header-content-col">
               <div class="header-content-text">
                 <h1 class="header-content-text__caption header-content-text__caption_top">Travel with us</h1>
                 <h2 class="header-content-text__caption header-content-text__caption_bottom">to the Mountains</h2>
                 <div class="header-content-text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</div>
-                <button class="btn header-content-text__btn-order">Order now</button>
+                <a href="#contact" class="btn btn-default  header-content-text__btn-order">Order now</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container blog-container">
         <div class="row blog-row">
           <div class="col-sm-5 col-md-5 blog-about-col">
             <div class="blog-about">
               <header class="blog-about__header">About us</header>
               <div class="blog-about__description">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</div>
-              <button class="btn blog-about__btn-read-more">Read more</button>
+              <a href="#" class="btn btn-default blog-about__btn-read-more">Read more</a>
             </div>
           </div>
           <div class="col-sm-7 col-md-7 blog-images-col">
@@ -89,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="journal">
+    <section class="journal" id="journal">
       <div class="container journal-container">
         <div class="row journal-header-row">
           <div class="col-xs-12 col-sm-12 col-md-12 journal-header-col">
@@ -97,14 +92,13 @@
           </div>
         </div>
         <div class="row journal-item-row">
-          <div class="col-sm-6 col-md-4 journal-item-col">
+          <div class="col-xs-12 col-sm-6 col-md-4 journal-item-col">
             <div class="journal-item journal-item_1">
               <img src="../assets/img/journal_img_1.png" alt="" class="journal-item__img">
               <img src="../assets/img/journal-item__img-overlay_1.png" alt="" class="journal-item__img-overlay">
             </div>
           </div>
-
-          <div class="col-sm-6 col-md-4 journal-item-col">
+          <div class="col-xs-12 col-sm-6 col-md-4 journal-item-col">
             <div class="journal-item journal-item_txt journal-item_txt-1">
               <div class="journal-item__top-caption">Love </div>
               <div class="journal-item__bottom-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</div>
@@ -112,20 +106,13 @@
               <div class="journal-item__number">01</div>
             </div>
           </div>
-
-          <div class="col-sm-6 col-sm-push-6 col-md-4 col-md-push-0 journal-item-col">
+          <div class="col-xs-12 col-xs-push-0 col-sm-6 col-sm-push-6 col-md-4 col-md-push-0 journal-item-col">
             <div class="journal-item journal-item_3">
               <img src="../assets/img/journal_img_3.png" alt="" class="journal-item__img">
               <img src="../assets/img/journal-item__img-overlay_3.png" alt="" class="journal-item__img-overlay">
             </div>
           </div>
-
-
-
-
-
-
-          <div class="col-sm-6 col-sm-pull-6 col-md-4 col-md-pull-0 journal-item-col">
+          <div class="col-xs-12 col-xs-pull-0 col-sm-6 col-sm-pull-6 col-md-4 col-md-pull-0 journal-item-col">
             <div class="journal-item journal-item_txt journal-item_txt-2">
               <div class="journal-item__top-caption">Tree </div>
               <div class="journal-item__bottom-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</div>
@@ -133,14 +120,12 @@
               <div class="journal-item__number">02</div>
             </div>
           </div>
-
           <div class="col-xs-12 col-sm-6 col-md-4 journal-item-col">
             <div class="journal-item journal-item_2">
               <img src="../assets/img/journal_img_2.png" alt="" class="journal-item__img">
               <img src="../assets/img/journal-item__img-overlay_2.png" alt="" class="journal-item__img-overlay">
             </div>
           </div>
-
           <div class="col-xs-12 col-sm-6 col-md-4 journal-item-col">
             <div class="journal-item journal-item_txt journal-item_txt-3">
               <div class="journal-item__top-caption">Water </div>
@@ -152,18 +137,18 @@
         </div>
       </div>
     </section>
-    <section class="offer">
+    <section class="offer" id="offer">
       <div class="container offer-container">
         <div class="row offer-row">
-          <div class="col-sm-9 col-md-9 offer-col">
+          <div class="col-xs-12 col-sm-12 col-md-9 offer-col">
             <div class="offer-content">
               <header class="offer-content-header">Do you wanna go?</header>
               <div class="offer-content-text">Aliquam sed posuere urna, et gravida nisl. Praesent
                 <br> interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</div>
-              <form action="submit" class="offer-content-form">
+              <form action="#" class="offer-content-form">
                 <input type="text" class="offer-content-form__input offer-content-form__input_name" placeholder="Your name:">
                 <input type="text" class="offer-content-form__input offer-content-form__input_phone" placeholder="Your phone:">
-                <button class="btn offer-content-form__btn-order">Order now</button>
+                <button type="submit" class="btn btn-default offer-content-form__btn-order">Order now</button>
               </form>
               <div class="offer-content-caution">* Your data will not be transferred</div>
             </div>
@@ -171,69 +156,54 @@
         </div>
       </div>
     </section>
-    <main class="scheme">
+    <main class="scheme" id="scheme">
       <div class="container scheme-container">
         <div class="row scheme-row">
           <div class="col-md-12 scheme-header-col">
             <header class="scheme-header">How we work</header>
           </div>
           <div class="col-sm-6 col-md-3 scheme-item-col">
-            <article class="scheme-item"> 
-
+            <article class="scheme-item">
               <div class="scheme-item-number">1</div>
               <div class="scheme-item-ellipse"><img src="../assets/img/scheme-item-ellipse__img_1.png" alt="" class="scheme-item-ellipse__img"></div>
               <header class="scheme-item-header">Lorem ipsum dolor sit</header>
               <div class="scheme-item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
-
             </article>
           </div>
-
           <div class="col-sm-6 col-md-3 scheme-item-col">
             <article class="scheme-item">
-
-
               <div class="scheme-item-number">2</div>
               <div class="scheme-item-ellipse"><img src="../assets/img/scheme-item-ellipse__img_2.png" alt="" class="scheme-item-ellipse__img"></div>
               <header class="scheme-item-header">Lorem ipsum dolor sit</header>
               <div class="scheme-item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
-
             </article>
           </div>
-
           <div class="col-sm-6 col-md-3 scheme-item-col">
             <article class="scheme-item">
-
-
               <div class="scheme-item-number">3</div>
               <div class="scheme-item-ellipse"><img src="../assets/img/scheme-item-ellipse__img_3.png" alt="" class="scheme-item-ellipse__img"></div>
               <header class="scheme-item-header">Lorem ipsum dolor sit</header>
               <div class="scheme-item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
-
             </article>
           </div>
-
           <div class="col-sm-6 col-md-3 scheme-item-col">
             <article class="scheme-item">
-
-
               <div class="scheme-item-number">4</div>
               <div class="scheme-item-ellipse"><img src="../assets/img/scheme-item-ellipse__img_4.png" alt="" class="scheme-item-ellipse__img"></div>
               <header class="scheme-item-header">Lorem ipsum dolor sit</header>
               <div class="scheme-item-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
-
             </article>
           </div>
         </div>
       </div>
     </main>
-    <section class="travel">
+    <section class="travel" id="travel">
       <div class="container travel-container">
         <div class="row travel-row">
           <div class="col-md-12 travel-header-col">
             <header class="travel-header">Travel with us</header>
           </div>
-          
-          <div class="travel-item-col">
+          <div class="travel-item-col travel-item-col_1">
             <div class="travel-item">
               <img src="../assets/img/travel-item-bg_1.png" alt="" class="travel-item__bg">
               <div class="travel-item__rating"><img class="travel-item__rating-stars" src="../assets/img/travel-item__rating-stars_4.png" alt=""></div>
@@ -245,8 +215,7 @@
               </div>
             </div>
           </div>
-
-          <div class="travel-item-col">
+          <div class="travel-item-col travel-item-col_2">
             <div class="travel-item">
               <img src="../assets/img/travel-item-bg_2.png" alt="" class="travel-item__bg">
               <div class="travel-item__rating"><img class="travel-item__rating-stars" src="../assets/img/travel-item__rating-stars_5.png" alt=""></div>
@@ -258,8 +227,7 @@
               </div>
             </div>
           </div>
-
-          <div class="travel-item-col">
+          <div class="travel-item-col travel-item-col_3">
             <div class="travel-item">
               <img src="../assets/img/travel-item-bg_3.png" alt="" class="travel-item__bg">
               <div class="travel-item__rating"><img class="travel-item__rating-stars" src="../assets/img/travel-item__rating-stars_5.png" alt=""></div>
@@ -271,8 +239,7 @@
               </div>
             </div>
           </div>
-
-          <div class="travel-item-col">
+          <div class="travel-item-col travel-item-col_4">
             <div class="travel-item">
               <img src="../assets/img/travel-item-bg_4.png" alt="" class="travel-item__bg">
               <div class="travel-item__rating"><img class="travel-item__rating-stars" src="../assets/img/travel-item__rating-stars_4.png" alt=""></div>
@@ -284,8 +251,7 @@
               </div>
             </div>
           </div>
-
-          <div class="travel-item-col">
+          <div class="travel-item-col travel-item-col_5">
             <div class="travel-item">
               <img src="../assets/img/travel-item-bg_5.png" alt="" class="travel-item__bg">
               <div class="travel-item__rating"><img class="travel-item__rating-stars" src="../assets/img/travel-item__rating-stars_3.png" alt=""></div>
@@ -297,11 +263,10 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="container gallery-container">
         <div class="row gallery-row">
           <div class="col-md-12 gallery-header-col">
@@ -309,17 +274,17 @@
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <div class="gallery-column">
-              <img src="../assets/img/gallery-column-img_1.png" alt="" class="gallery-column-img gallery-column-img_top">
-              <img src="../assets/img/gallery-column-img_2.png" alt="" class="gallery-column-img gallery-column-img_bottom"></div>
+              <img src="../assets/img/gallery-column-img_1.jpg" alt="" class="gallery-column-img gallery-column-img_1 gallery-column-img_top">
+              <img src="../assets/img/gallery-column-img_2.jpg" alt="" class="gallery-column-img gallery-column-img_2 gallery-column-img_bottom"></div>
           </div>
-
           <div class="col-xs-6 col-sm-4 col-md-4">
-            <div class="gallery-column"><img src="../assets/img/gallery-column-img_3.png" alt="" class="gallery-column-img gallery-column-img_top">
-              <img src="../assets/img/gallery-column-img_4.png" alt="" class="gallery-column-img gallery-column-img_bottom"></div>
+            <div class="gallery-column"><img src="../assets/img/gallery-column-img_3.jpg" alt="" class="gallery-column-img gallery-column-img_3
+                gallery-column-img_top">
+              <img src="../assets/img/gallery-column-img_4.jpg" alt="" class="gallery-column-img gallery-column-img_4 gallery-column-img_bottom"></div>
           </div>
           <div class="col-xs-12 col-sm-5 col-md-5">
-            <div class="gallery-column"><img src="../assets/img/gallery-column-img_5.png" alt="" class="gallery-column-img gallery-column-img_top">
-              <img src="../assets/img/gallery-column-img_6.png" alt="" class="gallery-column-img gallery-column-img_bottom"></div>
+            <div class="gallery-column"><img src="../assets/img/gallery-column-img_5.jpg" alt="" class="gallery-column-img gallery-column-img_5 gallery-column-img_top">
+              <img src="../assets/img/gallery-column-img_6.jpg" alt="" class="gallery-column-img gallery-column-img_6 gallery-column-img_bottom"></div>
           </div>
         </div>
       </div>
@@ -327,7 +292,7 @@
     <div class="logos">
       <div class="container logos-container">
         <div class="row logos-row">
-          <div class="col-md-12 logos-col">
+          <div class="col-xs-12 col-sm-12 col-md-12 logos-col">
             <img src="../assets/img/logos-img_1.png" alt="Slack" class="logos-img">
             <img src="../assets/img/logos-img_2.png" alt="Adobe" class="logos-img">
             <img src="../assets/img/logos-img_3.png" alt="Google" class="logos-img">
@@ -340,7 +305,6 @@
     </div>
     <footer class="footer">
       <div class="container footer-container">
-
         <div class="row footer-review-row">
           <div class="col-md-12 footer-review-header-col">
             <header class="footer-review-header">Our clients say</header>
@@ -352,8 +316,6 @@
               <div class="footer-review-item__user-name">Pavliv Yaroslav <span class="footer-review-item__user-job">Web designer</span></div>
             </div>
           </div>
-
-
           <div class="col-md-6 footer-review-item-col">
             <div class="footer-review-item">
               <div class="footer-review-item__user-opinion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </div>
@@ -362,47 +324,44 @@
             </div>
           </div>
         </div>
-        <div class="row footer-feedback-row">
+        <div class="row footer-feedback-row" id="contact">
           <div class="col-xs-12 col-sm-12 col-md-12 footer-feedback-col">
             <div class="footer-feedback">
               <div class="footer-feedback__header">Contacts</div>
               <div class="footer-feedback__description">Sign up for our newsletter to receive updates</div>
-              <form action="submit" class="footer-feedback-form">
+              <form action="#" class="footer-feedback-form">
                 <input type="text" class="footer-feedback-form__input" placeholder="Name">
                 <input type="text" class="footer-feedback-form__input" placeholder="Phone">
                 <input type="text" class="footer-feedback-form__input" placeholder="E-mail">
-                <button class="btn footer-feedback-form__btn-send">Send</button>
+                <button type="submit" class="btn btn-default footer-feedback-form__btn-send">Send</button>
               </form>
             </div>
           </div>
         </div>
-
-
-
         <div class="row footer-bottom-row">
           <div class="col-xs-12 col-sm-4 col-md-4 footer-bottom-copyright-col">
             <div class="footer-bottom-copyright">All rights reserved 2015</div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 footer-bottom-social-col">
             <div class="footer-bottom-social">
-              <img src="../assets/img/footer-bottom-social__img_twitter.png" alt="" class="footer-bottom-social__img">
-              <img src="../assets/img/footer-bottom-social__img_facebook.png" alt="" class="footer-bottom-social__img">
-              <img src="../assets/img/footer-bottom-social__img_vk.png" alt="" class="footer-bottom-social__img">
+              <a class="footer-bottom-social__link" href="#"><img src="../assets/img/footer-bottom-social__img_twitter.png" alt="" class="footer-bottom-social__img"></a>
+              <a class="footer-bottom-social__link" href="#"><img src="../assets/img/footer-bottom-social__img_facebook.png" alt="" class="footer-bottom-social__img"></a>
+              <a class="footer-bottom-social__link" href="#"><img src="../assets/img/footer-bottom-social__img_vk.png" alt="" class="footer-bottom-social__img"></a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 footer-bottom-phonenumber-col"><a href="tel:1234243123" class="footer-bottom-phonenumber">1 234 243 123</a></div>
         </div>
       </div>
     </footer>
-
   </div>
 <script>
+  var $root = $('html, body');
   $(document).ready(function () {
-
     $('#header-nav-toggle').sidr({
       side: 'right',
       source: '#header-nav-menu',
       bind: 'click',
+      displace: true,
       onOpen: function () {
         $('#header-nav-toggle').addClass('open');
       },
@@ -412,11 +371,22 @@
       onClose: function () {
         $('#header-nav-toggle').removeClass('open');
         $('.wrapper').removeClass('wrapper-fixed');
-      },
+      }
+    });
+    $('.site-wrapper, .sidr-class-header-nav-menu-list__link').click(function () {
+      $.sidr('close', 'sidr');
+    });
 
+    $('a[href^="#"]').click(function () {
+      $root.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, {
+        duration: Math.abs(window.scrollY - $(this.hash).offset().top) / 6,
+        easing: "linear"
+      });
+      return false;
     });
   });
 </script>
 </body>
-
 </html>
