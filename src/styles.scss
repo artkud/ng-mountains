@@ -5,24 +5,10 @@ $body-color-trivial: #95A5AD;
 $link-color: $body-color-accent;
 $link-hovered-color: #1697d7;
 $body-font-size: 14px;
-$body-font-family: "Open Sans",
-Helvetica,
-Arial,
-sans-serif;
-$grotesque-font-family: "Roboto",
-"Open Sans",
-Helvetica,
-Arial,
-sans-serif;
-$cursive-font-family: "Bringin",
-"Lobster Two Italic",
-"Lobster",
-"Androgyne";
-$btn-font-family: "Raleway",
-"Open Sans",
-Helvetica,
-Arial,
-sans-serif;
+$body-font-family: "Open Sans",Helvetica,Arial,sans-serif;
+$grotesque-font-family: "Roboto","Open Sans",Helvetica,Arial,sans-serif;
+$cursive-font-family: "Bringin","Lobster Two Italic","Lobster","Androgyne";
+$btn-font-family: "Raleway","Open Sans",Helvetica,Arial,sans-serif;
 @mixin object-transition-duration {
   -webkit-transition-duration: .4s;
   -moz-transition-duration: .4s;
@@ -1309,7 +1295,7 @@ textarea::-webkit-input-placeholder,
   .header-nav {
     position: fixed;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.72);
+    background-color: rgba(255, 255, 255, 0.75);
     &-logo {
       line-height: 90px;
     }

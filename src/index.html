@@ -14,8 +14,7 @@
 </head>
 <body>
 <app-root></app-root>
-<div id="sidr">
-  </div>
+<div id="sidr"></div>
 <div class="site-wrapper">
     <header class="header">
       <div class="header-nav">
@@ -376,7 +375,6 @@
     $('.site-wrapper, .sidr-class-header-nav-menu-list__link').click(function () {
       $.sidr('close', 'sidr');
     });
-
     $('a[href^="#"]').click(function () {
       $root.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
